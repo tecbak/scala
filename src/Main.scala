@@ -9,9 +9,8 @@ object Main {
 
 
   def main(args: Array[String]): Unit = {
-    def a = 1
-
-    def b = 5
+    val a = 1
+    val b = 5
 
     println(sum(id, a, b))
     println(sum(square, a, b))
